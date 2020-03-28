@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/PrintNumberThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/RunMultiPrintNumThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="271">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -173,14 +173,14 @@
         <option value="$PROJECT_DIR$/src/com/javaeasy/threadsleep/TestAddingInMain.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/threadsleep/TestAdding.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/threadsleep/TestAddingMain.java" />
-        <option value="$PROJECT_DIR$/src/com/javaeasy/multithreads/PrintNumberThread.java" />
-        <option value="$PROJECT_DIR$/src/com/javaeasy/multithreads/RunMultiPrintNumThread.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/simplecopier/Copier.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/simplecopier/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/simplecopier/SimpleCopyShop.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/sync/SyncMethods.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/sync/SyncMethodsⅡ.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/simplecopier/UseSyncCopierCopyShop.java" />
+        <option value="$PROJECT_DIR$/src/com/javaeasy/multithreads/PrintNumberThread.java" />
+        <option value="$PROJECT_DIR$/src/com/javaeasy/multithreads/RunMultiPrintNumThread.java" />
       </list>
     </option>
   </component>
@@ -196,17 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="hello" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +218,17 @@
               <item name="hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaeasy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hello" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hello" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +261,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="settings.editor.splitter.proportion" value="0.23154056" />
   </component>
   <component name="RecentsManager">
@@ -283,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseSyncCopierCopyShop">
+  <component name="RunManager" selected="Application.RunMultiPrintNumThread">
     <configuration name="RunMultiPrintNumThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaeasy.multithreads.RunMultiPrintNumThread" />
       <module name="hello" />
@@ -321,9 +321,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunMultiPrintNumThread" />
         <item itemvalue="Application.UseSyncCopierCopyShop" />
         <item itemvalue="Application.SimpleCopyShop" />
-        <item itemvalue="Application.RunMultiPrintNumThread" />
         <item itemvalue="Application.TestAddingMain" />
         <item itemvalue="Application.TestAddingInMain" />
       </list>
@@ -344,7 +344,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.23793566" />
       <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" weight="0.22520107" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" x="3" y="492" width="1492" height="194" id="Run" order="2" weight="0.30551627" />
+      <window_info anchor="bottom" x="3" y="492" width="1492" height="194" id="Run" order="2" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,23 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/123/JDK8.1/jdk-8u171-windows-x64/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="737" column="10" selection-start-line="737" selection-start-column="10" selection-end-line="737" selection-end-column="10" />
-          <folding>
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
-            <element signature="e#6682#6683#0" expanded="true" />
-            <element signature="e#6722#6723#0" expanded="true" />
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javaeasy/aboutabstract/NoInstanceForAbstractType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -731,24 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/PrintNumberThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/RunMultiPrintNumThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -807,6 +772,41 @@
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/123/JDK8.1/jdk-8u171-windows-x64/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
+          <folding>
+            <element signature="e#5559#5560#0" expanded="true" />
+            <element signature="e#5600#5601#0" expanded="true" />
+            <element signature="e#6682#6683#0" expanded="true" />
+            <element signature="e#6722#6723#0" expanded="true" />
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/PrintNumberThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/multithreads/RunMultiPrintNumThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
