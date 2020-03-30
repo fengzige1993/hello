@@ -5,7 +5,7 @@ package com.javaeasy.property;
  */
 public class BankAccount {
     private int money = 0;
-    public void getMoneyOutOfBank(int cash){
+    public synchronized void  getMoneyOutOfBank(int cash){
         if (cash <= 0){
             System.out.println("取钱的数额必须大于0");
             return;
@@ -24,7 +24,7 @@ public class BankAccount {
         money = money - cash;
         System.out.println("取钱成功，请拿好现金："+cash+"元。现在账户余额为："+money +"元");
     }
-    public void putMoneyToBank(int cash){
+    public synchronized void putMoneyToBank(int cash){
         if (cash <= 0){
             System.out.println("存钱的数额必须大于0");
             return;
