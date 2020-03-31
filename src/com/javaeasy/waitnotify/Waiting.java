@@ -6,7 +6,7 @@ package com.javaeasy.waitnotify;
  */
 
 public class Waiting implements Runnable {
-    private Object waitObj;
+    private Object waitObj; //创建一个Object类的引用，为了调用 wait()和 notify()方法
     public Waiting(Object waitObj){
         this.waitObj = waitObj;
     }
