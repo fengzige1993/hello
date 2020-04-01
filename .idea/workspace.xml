@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d48736-c522-41c3-81f5-be592461044e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/ErrorSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/QuickNotifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/Waiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/Waiting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,28 +20,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/BankAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/GetMoney.java">
+        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/QuickNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/ErrorSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/GetMoneyInMutiThread.java">
+        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,23 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -103,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javaeasy/selfdefineexception/CapacityTooBigException.java" />
-        <option value="$PROJECT_DIR$/src/com/javaeasy/selfdefineexception/CupDesigner.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/selfdefineexception/Cup.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/selfdefineexception/UsingTryFinally.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/selfdefineexception/DesignCupMain.java" />
@@ -153,11 +142,13 @@
         <option value="$PROJECT_DIR$/src/com/javaeasy/property/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/waitnotify/Waiting.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java" />
+        <option value="$PROJECT_DIR$/src/com/javaeasy/waitnotify/QuickNotifier.java" />
         <option value="$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java" />
+        <option value="$PROJECT_DIR$/src/com/javaeasy/waitnotify/ErrorSequence.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1370" />
@@ -171,12 +162,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="hello" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hello" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="hello" type="58d84e3e:PackageViewProjectNode" />
+              <item name="hello" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -216,12 +207,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="hello" type="58d84e3e:PackageViewProjectNode" />
-              <item name="hello" type="616d4139:PackageViewModuleNode" />
+              <item name="hello" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hello" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +256,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleWaitNotify">
+  <component name="RunManager" selected="Application.ErrorSequence">
+    <configuration name="ErrorSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaeasy.waitnotify.ErrorSequence" />
+      <module name="hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetMoneyInMutiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaeasy.property.GetMoneyInMutiThread" />
       <module name="hello" />
@@ -275,13 +273,6 @@
     </configuration>
     <configuration name="RunMultiPrintNumThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaeasy.multithreads.RunMultiPrintNumThread" />
-      <module name="hello" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleCopyShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaeasy.simplecopier.SimpleCopyShop" />
       <module name="hello" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErrorSequence" />
         <item itemvalue="Application.SimpleWaitNotify" />
         <item itemvalue="Application.GetMoneyInMutiThread" />
         <item itemvalue="Application.RunMultiPrintNumThread" />
         <item itemvalue="Application.UseSyncCopierCopyShop" />
-        <item itemvalue="Application.SimpleCopyShop" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +318,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.2546917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.2580429" />
       <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" weight="0.22520107" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +327,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" x="3" y="492" width="1492" height="194" id="Run" order="2" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" x="3" y="492" width="1492" height="194" id="Run" order="2" visible="true" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,7 +337,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.24328147" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32577905" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32531825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,26 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/writedandread/WriteDataUsingStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/writedandread/ReadDataFromFileUsingStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javaeasy/learnsockettcp/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -731,10 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/GetMoneyInMutiThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="380">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -745,10 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/GetMoneyInMutiThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/property/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="532">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -756,28 +727,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/QuickNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/SimpleWaitNotify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="152">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/Notifier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaeasy/waitnotify/ErrorSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-15">
+          <caret selection-end-line="18" />
         </state>
       </provider>
     </entry>

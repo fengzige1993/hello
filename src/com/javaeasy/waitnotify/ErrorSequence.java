@@ -2,16 +2,17 @@ package com.javaeasy.waitnotify;
 
 /**
  * 例程类
+ * 首先启动了唤醒线程，然后再启动挂起线程，这样线程就会永远挂起
+ *
  */
-public class SimpleWaitNotify {
+public class ErrorSequence {
     public static void main(String[] args){
         Object obj = new Object();
-        //创建用于执行 wait()方法和notify()方法的Object类
         Waiting waiting = new Waiting(obj);
-        Notifier notifier = new Notifier(obj);
+        QuickNotifier notifier = new QuickNotifier(obj);
         Thread waitingThread = new Thread(waiting,"挂起线程");
         Thread notifierThread = new Thread(notifier,"唤醒线程");
-        waitingThread.start(); //先挂起
-        notifierThread.start();//在唤醒
+        notifierThread.start();//首先启动唤醒线程
+        waitingThread.start();//然后启动挂起线程
     }
 }
