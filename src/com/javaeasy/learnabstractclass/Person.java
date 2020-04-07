@@ -5,7 +5,7 @@ package com.javaeasy.learnabstractclass;
  */
 
 // 类声明中使用abstract关键字修饰这个类，表示此类是一个抽象的类，这点与接口类似
-public abstract class Person {
+abstract class Person {
     private String name;
 
     //构造方法必须与类名相同，
