@@ -5,6 +5,7 @@ import java.awt.Container;
 import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.GridLayout;
 import java.awt.Point;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -15,10 +16,10 @@ import javax.swing.JPanel;
  */
 
 
-public class LearnLayout{
+public class LearnGridBagLayout {
     public static void main(String[] args){
         JFrame frame = new JFrame();
-        frame.setSize(300,300);
+        frame.setSize(600,200);
         frame.setLocation(new Point(100,300));
         frame.setTitle("学习Swing的布局管理器");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -77,6 +78,16 @@ public class LearnLayout{
         gbc.weighty = 1.0;
         container.add(panel2,gbc);
         //添加了第五个组件，面板
+        GridLayout btnsLayout = new GridLayout(2,3);
+        //创建布局管理器
+        panel2.setLayout(btnsLayout);
+        //为面板设置布局管理器
+        panel2.add(new JButton("面板内的按钮1"));
+        panel2.add(new JButton("面板内的按钮2"));
+        panel2.add(new JButton("面板内的按钮3"));
+        panel2.add(new JButton("面板内的按钮4"));
+        panel2.add(new JButton("面板内的按钮5"));
+        //在面板内向其中5个按钮
         frame.setVisible(true);
         //让窗口显示
     }
