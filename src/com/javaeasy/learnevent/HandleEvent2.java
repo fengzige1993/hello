@@ -47,6 +47,7 @@ public class HandleEvent2 {
         container.add(label);
         container.add(button);
         MyListener listener = new MyListener();
+        //创建一个内部类的实例
         button.addActionListener(listener);//添加按钮事件监听器
     }
     //显示窗口
